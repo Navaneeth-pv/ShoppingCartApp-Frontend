@@ -21,7 +21,7 @@ export class UserloginComponent {
   }
     console.log(data)
 
-    if (this.username=="user" && this.password=="456789") {
+    if (this.username=="Nava" && this.password=="456789") {
 
       this.router.navigate(['/searchviewproduct'])
       
