@@ -11,6 +11,7 @@ import { UsersignupComponent } from './usersignup/usersignup.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AddproductComponent } from './addproduct/addproduct.component';
 import { ViewproductComponent } from './viewproduct/viewproduct.component';
+import { SearchproductComponent } from './searchproduct/searchproduct.component';
 
 const myRoute:Routes=[
   
@@ -23,7 +24,8 @@ const myRoute:Routes=[
     UserloginComponent,
     UsersignupComponent,
     AddproductComponent,
-    ViewproductComponent
+    ViewproductComponent,
+    SearchproductComponent
   ],
   imports: [
     BrowserModule,
