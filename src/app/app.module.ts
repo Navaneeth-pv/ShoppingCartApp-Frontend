@@ -12,8 +12,37 @@ import { HttpClientModule } from '@angular/common/http';
 import { AddproductComponent } from './addproduct/addproduct.component';
 import { ViewproductComponent } from './viewproduct/viewproduct.component';
 import { SearchproductComponent } from './searchproduct/searchproduct.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 const myRoute:Routes=[
+  {
+    path:"",
+    component:AdminloginComponent
+  },
+  {
+    path:"userlogin",
+    component:UserloginComponent
+  },
+  {
+    path:"userregistration",
+    component:UsersignupComponent
+  },
+  {
+    path:"addproduct",
+    component:AddproductComponent
+  },
+  {
+    path:"searchproduct",
+    component:SearchproductComponent
+  },
+  {
+    path:"viewproduct",
+    component:ViewproductComponent
+  },
+  {
+    path:"searchviewproduct",
+    component:SearchproductComponent
+  }
   
 ]
 
@@ -25,7 +54,8 @@ const myRoute:Routes=[
     UsersignupComponent,
     AddproductComponent,
     ViewproductComponent,
-    SearchproductComponent
+    SearchproductComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
