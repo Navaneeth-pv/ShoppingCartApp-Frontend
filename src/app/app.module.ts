@@ -9,6 +9,8 @@ import { FormsModule } from '@angular/forms';
 import { UserloginComponent } from './userlogin/userlogin.component';
 import { UsersignupComponent } from './usersignup/usersignup.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AddproductComponent } from './addproduct/addproduct.component';
+import { ViewproductComponent } from './viewproduct/viewproduct.component';
 
 const myRoute:Routes=[
   
@@ -19,7 +21,9 @@ const myRoute:Routes=[
     AppComponent,
     AdminloginComponent,
     UserloginComponent,
-    UsersignupComponent
+    UsersignupComponent,
+    AddproductComponent,
+    ViewproductComponent
   ],
   imports: [
     BrowserModule,
